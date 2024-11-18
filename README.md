@@ -2,13 +2,14 @@
 
 ## Installation
 
-1. Full Install
+### Full Install
    ```bash
    git clone https://github.com/alaamroue/.dotfiles ~/.dotfiles
    cd ~/.dotfiles
    stow .
+   ```
 
-##Installing Tmux:
+### Installing Tmux:
    ```bash
    sudo apt install libevent-dev
    sudo apt-get install bison -y
@@ -20,3 +21,4 @@
    ./configure && make
    sudo make install
    source ~/.bashrc
+   ```
