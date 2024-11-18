@@ -4,7 +4,7 @@
 
 ### Full Install
    ```bash
-   git clone https://github.com/alaamroue/.dotfiles ~/.dotfiles
+   git clone https://github.com/alaamroue/.dotfiles ~/.dotfiles --recurse-submodules 
    cd ~/.dotfiles
    stow .
    ```
