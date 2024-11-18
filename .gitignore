@@ -1,1 +1,10 @@
-.config/tmux/plugins/
+.config/*
+
+!.config/tmux/
+.config/tmux/*
+!.config/tmux/tmux.conf
+
+!.config/fabric
+.config/fabric/*
+!.config/fabric/my_patterns
+
