@@ -28,4 +28,4 @@
 ### Usefull Tools
    ```bash
    sudo apt-get update
-   sudo apt-get tree neovim
+   sudo apt-get -y tree neovim
