@@ -24,3 +24,8 @@
    sudo make install
    source ~/.bashrc
    ```
+
+### Usefull Tools
+   ```bash
+   sudo apt-get update
+   sudo apt-get tree
