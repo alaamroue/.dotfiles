@@ -4,10 +4,12 @@
 
 ### Full Install
    ```bash
+   sudo apt-get update
    sudo apt install -y stow
    git clone https://github.com/alaamroue/.dotfiles ~/.dotfiles --recurse-submodules 
    cd ~/.dotfiles
    stow .
+   ./setup.sh
    tmux source ~/.config/tmux/tmux.conf
 
    ```
