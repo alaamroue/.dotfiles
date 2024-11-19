@@ -7,6 +7,7 @@ cd ~ && mkdir tempAlaaSetup && cd tempAlaaSetup
 
 # Update and install all
 sudo apt-get update
+sudo apt-get upgrade
 sudo apt-get install -y libevent-dev bison byacc autotools-dev automake build-essential pkg-config autoconf-archive ncurses-dev tree neovim fzf golang-go xsel glow
 source ~/.bashrc
 
