@@ -22,7 +22,7 @@ add_to_bashrc "export PATH=\"\$HOME/.local/bin:\$PATH\""
 go install github.com/danielmiessler/fabric@latest
 add_to_bashrc "export GOROOT=/usr/local/go"
 add_to_bashrc "export GOPATH=$HOME/go"
-add_to_bashrc "export PATH=$GOPATH/bin:$GOROOT/bin:$HOME/.local/bin:$PATH"
+add_to_bashrc "export PATH=\$GOPATH/bin:\$GOROOT/bin:\$HOME/.local/bin:\$PATH"
 
 # Copy paste to Clipboard
 add_to_bashrc "alias pbcopy='xsel --input --clipboard'"
