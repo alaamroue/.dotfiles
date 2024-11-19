@@ -16,6 +16,7 @@ cd tmux/
 sh autogen.sh
 ./configure && make
 sudo make install
+add_to_bashrc "export PATH=\"\$HOME/.local/bin:\$PATH\""
 
 # Fabric
 go install github.com/danielmiessler/fabric@latest
