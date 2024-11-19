@@ -1,0 +1,29 @@
+name: Setup on Ubuntu 🐧
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+env:
+
+jobs:
+  SetupOnUbuntu:
+    name: 🐧 Setup on Ubuntu
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 1
+    
+    - name: Run Setup Script
+      run: |
+        ./setup.sh
+    
+    - name: Check Tmux
+      run: |
+        tmux -V
