@@ -6,7 +6,7 @@ add_to_bashrc "add_to_bashrc() { grep -qF \"\$1\" ~/.bashrc || printf '%s\n' \"\
 cd ~ && mkdir tempAlaaSetup && cd tempAlaaSetup
 
 # Update and install all
-sudo apt update
+sudo apt-get update
 sudo apt-get install -y libevent-dev bison byacc autotools-dev automake build-essential pkg-config autoconf-archive ncurses-dev tree neovim fzf golang-go xsel glow
 
 # Tmux
