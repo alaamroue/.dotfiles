@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Add to bashrc
 add_to_bashrc() { grep -qF "$1" ~/.bashrc || printf '%s\n' "$1" >> ~/.bashrc; }
 add_to_bashrc "add_to_bashrc() { grep -qF \"\$1\" ~/.bashrc || printf '%s\n' \"\$1\" >> ~/.bashrc; }"
